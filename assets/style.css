@@ -1,0 +1,65 @@
+/* .placeholder-light::placeholder{
+    color: #eee !important;
+}
+.btn-hover-light:hover{
+    background-color: #eee !important;
+    color: #333;
+    background-image: url();
+}
+.content{
+    height: 512px;
+    overflow: auto;
+}
+.content::-webkit-scrollbar{
+    display: none;
+} */
+.no-focus:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.placeholder-text::placeholder{
+    color:light !important;
+}
+.messageContainerAll{
+    min-width: 390px;
+}
+.friendList{
+    min-width: 390px !important;
+}
+.burgerFriendList{
+    display: none;
+}
+.conBackground{
+    min-width: 800px !important;
+}
+
+@media screen and (max-width: 900px) {
+    .friendList{
+        min-height: 100% !important;
+        width: 100% !important;
+    }
+    .burgerFriendList{
+        display: block !important;
+    }
+    .conBackground{
+        min-width: 100% !important;
+        width: 100% !important;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .messageContainerAll{
+        min-width: 100% !important;
+        width: 100% !important;
+        height:100vh !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        
+        
+    }
+}
